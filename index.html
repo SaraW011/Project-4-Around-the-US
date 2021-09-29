@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+        <title>Around The U.S.</title>
+        <link rel="stylesheet" href="./pages/index.css" />
+    </head>
+
+    <body class="root">
+        <div class="page">
+            <!-- Header -->
+
+            <header class="header">
+                <a href="#" target="_blank"><img src="./images/logo.svg" class="logo" alt="Around the USA logo" /></a>
+            </header>
+
+            <main class="main">
+                <!-- profile -->
+
+                <div class="profile">
+
+                        <img class="profile__avatar" src="./images/avatar.jpg" alt="profile avatar" />
+                    
+                    <div class="profile__info">
+                                                         
+                                <span class="profile__name">Jacques Cousteau
+                                    <button type="button" class="profile__edit-button" name="edit"></button>
+                                </span>
+                                    <!-- edit button -->
+                                   
+                                <span class="profile__title">Explorer</span>
+                    </div>
+                    <!-- end profile__info -->
+
+                    <!-- add button -->
+                    <input type="text" class="profile__add-button" />
+                </div>
+                <!-- end-profile -->
+
+                <!-- modal -->
+                <div class="modal">
+                    <div class="modal__container">
+                        <div class="modal__close-button"></div>
+
+                        <span class="modal__title">Edit Profile</span>
+
+                        <!-- form inside modal -->
+
+                        <form action="#" class="form">
+                            <input type="text" class="form__input form__input_type_name" placeholder="name" name="name" />
+
+                            <input type="text" class="form__input form__input_type_job" placeholder="profession" name="profession" />
+
+                            <button type="submit" class="form__button">Save</button>
+                        </form>
+                    </div>
+                    <!-- end modal__container-->
+                </div>
+                <!-- end-modal -->
+
+                <!-- image elements -->
+
+                <ul class="elements">
+                    <li class="elements__element">
+                        <img class="elements__image" src="./images/yosemite-valley.png" alt="Image of Yosemite Valley" />
+                        <div class="elements__info">
+                            <span class="elements__text">Yosemite Valley</span>
+                            <img class="elements__heart" src="./images/heart.svg" alt="heart button" />
+                        </div>
+                    </li>
+
+                    <li class="elements__element">
+                        <img class="elements__image" src="./images/lake-louise.png" alt="Image of Lake Louise" />
+                        <div class="elements__info">
+                            <span class="elements__text">Lake Louise</span>
+                            <img class="elements__heart" src="./images/heart.svg" alt="heart button" />
+                        </div>
+                    </li>
+
+                    <li class="elements__element">
+                        <img class="elements__image" src="./images/bald-mountains.png" alt="Image of Bald Mountains" />
+                        <div class="elements__info">
+                            <span class="elements__text">Bald Mountains</span>
+                            <img class="elements__heart" src="./images/heart.svg" alt="heart button" />
+                        </div>
+                    </li>
+
+                    <li class="elements__element">
+                        <img class="elements__image" src="./images/latemar.png" alt="Image of Latemar" />
+                        <div class="elements__info">
+                            <span class="elements__text">Latemar</span>
+                            <img class="elements__heart" src="./images/heart.svg" alt="heart button" />
+                        </div>
+                    </li>
+
+                    <li class="elements__element">
+                        <img class="elements__image" src="./images/vanoise-national-park.png" alt="Image of Vanoise National Park" />
+                        <div class="elements__info">
+                            <span class="elements__text">Vanoise National Park</span>
+                            <img class="elements__heart" src="./images/heart.svg" alt="heart button" />
+                        </div>
+                    </li>
+
+                    <li class="elements__element">
+                        <img class="elements__image" src="./images/lago-di-braies.png" alt="Image of Lago di Braies" />
+                        <div class="elements__info">
+                            <span class="elements__text">Lago di Braies</span>
+                            <img class="elements__heart" src="./images/heart.svg" alt="heart button" />
+                        </div>
+                    </li>
+                </ul>
+            </main>
+
+            <!-- Footer -->
+
+            <footer class="footer">
+                <p class="footer__copyright">© 2021. Around the U.S.</p>
+            </footer>
+
+            <script src="./js/index.js"></script>
+        </div>
+    </body>
+</html>

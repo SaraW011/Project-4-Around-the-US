@@ -1,0 +1,19 @@
+.elements__heart {
+  height: 19px;
+  width: 21px;
+  align-self: center;
+  cursor: pointer;
+  transition: 1s ease-out;
+}
+
+.elements__heart:hover {
+  opacity: 0.5;  
+}
+
+.elements__heart:active {
+  z-index: 1;
+  opacity: 1;
+  background-image: url(../../../../images/heart_active.svg);
+   }
+
+  
