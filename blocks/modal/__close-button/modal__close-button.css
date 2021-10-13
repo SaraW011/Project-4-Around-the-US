@@ -5,6 +5,8 @@
     right: -45px;
     top: -45px;
     background-image: url(../../../images/close_icon.svg);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
     transform: rotate(90deg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +19,7 @@
     opacity: 0.6;
   } 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 720px) {
     .modal__close-button {
       top: -39px;
       right: 0;

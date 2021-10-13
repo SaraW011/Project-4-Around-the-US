@@ -2,6 +2,9 @@
   height: 19px;
   width: 21px;
   align-self: center;
+  padding: 0;
+  border: none;
+  background: none;
   cursor: pointer;
   transition: 1s ease-out;
 }
@@ -13,7 +16,9 @@
 .elements__heart:active {
   z-index: 1;
   opacity: 1;
-  background-image: url(../../../../images/heart_active.svg);
-   }
+  background-image: url(../../../images/heart_active.svg);
+}
 
-  
+.elements__heart:focus {
+  outline: none;
+}

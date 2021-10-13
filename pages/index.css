@@ -17,6 +17,7 @@
 
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/elements/__element/elements__element.css);
+@import url(../blocks/elements/__elements__list/elements__list.css);
 @import url(../blocks/elements/__info/elements__info.css);
 @import url(../blocks/elements/__text/elements__text.css);
 @import url(../blocks/elements/__image/elements__image.css);
@@ -30,10 +31,9 @@
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input/form__input.css);
-@import url(../blocks/form/__input/_type/form__input_type_name.css);
-@import url(../blocks/form/__input/_type/form__input_type_job.css);
 @import url(../blocks/form/__button/form__button.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/root/root.css);
