@@ -1,3 +1,4 @@
+/* allows access to editing profile name and info */
 .profile__edit-button {
     box-sizing: border-box;
     display: inline-flex;

@@ -1,3 +1,5 @@
+/* wrapper for avatar, profile-info and add-button */
+
 .profile {
  display: flex;
  max-width: 880px;

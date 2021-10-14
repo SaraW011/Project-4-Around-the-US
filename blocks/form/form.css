@@ -1,3 +1,4 @@
+/* allows editing profile name and info within pop-up window */
 .form {
     display: flex;
     flex-direction: column;

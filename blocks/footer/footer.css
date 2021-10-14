@@ -1,8 +1,14 @@
 .footer {
 color: #545454;
 padding: 0;
-margin: 0 0 60px 0;
+margin: 0 auto 60px auto;
 width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+  width: calc(100% - (19px * 2));
+  }
 }
 
 @media screen and (max-width: 320px) {
